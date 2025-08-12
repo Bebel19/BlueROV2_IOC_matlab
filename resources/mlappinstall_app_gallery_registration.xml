@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toolset id="user_apps_toolset" template="false">
+   <tool app_file_path="./" handler_class="com.mathworks.appmanagement.desktop.ToolboxToolSetExtensionHandler" id="9a122078-164b-47ea-8d07-981b5c405fb5" label="ROV Simulator 2024a" toolset_id="user_apps_toolset">
+      <callback>matlab.apputil.run('ROVSimulator2024aAPP')</callback>
+      <summary>Remotely Operated Vehicle Simulator</summary>
+      <description>&lt;b&gt;Created by:&lt;/b&gt;
+&lt;i&gt;Fredrik Fogh Sørensen&lt;/i&gt; 
+&lt;i&gt;Jesper Liniger &lt;/i&gt;
+&lt;i&gt;Simon Pedersen&lt;/i&gt; 
+&lt;i&gt;Malte Von Benzon&lt;/i&gt; 
+&lt;i&gt;Esben Uth&lt;/i&gt;
+&lt;i&gt;Jerome Jouffroy&lt;/i&gt;</description>
+      <parent_tool id="my_apps" toolset_id="apps_toolset"/>
+   </tool>
+</toolset>
